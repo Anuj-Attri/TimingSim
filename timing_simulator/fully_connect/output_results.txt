@@ -1,0 +1,30 @@
+srbb = 
+ [0, 0, 0, 0, 0, 0, 0, 0]
+
+vrbb = 
+ [0, 0, 0, 0, 0, 0, 0, 0]
+
+public_backend = 
+
+
+AddPipeline = 
+ []
+
+MulPipeline = 
+ []
+
+DivPipeline = 
+ []
+
+ScalarPipeline = 
+ []
+
+VmemPipeline = 
+ []
+
+bankBusyCount = 
+ [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+bankMemoryAddr = 
+ [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Total cycle: 23560

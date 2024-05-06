@@ -1,0 +1,33 @@
+Total cycle: 25
+
+
+# Dispatch Queue parameters
+dataQueueDepth = 4
+computeQueueDepth = 4
+scalarQueueDepth = 4
+
+# VDMEM LS parameters
+vdmNumBanks = 16
+vlsPipelineDepth = 11
+
+# Compute Pipeline parameters
+numLanes = 4
+pipelineDepthMul = 12
+pipelineDepthAdd = 2
+pipelineDepthDiv = 8
+
+
+CVM latency: 3
+LS SR1 (0) latency: 3
+LS SR2 (1) latency: 3
+LS SR3 (2) latency: 3
+LS SR4 (3) latency: 3
+LS SR5 (4) latency: 3
+MFCL SR6 latency: 3
+MTCL SR1 [1] latency: 3
+MTCL SR6 [64] latency: 3
+ADD SR7 SR5 SR2 latency: 3
+SS SR7 (450) latency: 4
+SUB SR5 SR5 SR5 latency: 3
+ADD SR5 SR4 SR6 latency: 4
+HALT latency: 1

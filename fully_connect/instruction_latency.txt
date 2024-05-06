@@ -1,0 +1,82 @@
+Total cycle: None
+
+
+# Dispatch Queue parameters
+dataQueueDepth = 4
+computeQueueDepth = 4
+scalarQueueDepth = 4
+
+# VDMEM LS parameters
+vdmNumBanks = 16
+vlsPipelineDepth = 11
+
+# Compute Pipeline parameters
+numLanes = 4
+pipelineDepthMul = 12
+pipelineDepthAdd = 2
+pipelineDepthDiv = 8
+
+
+LS SR2 (1) latency: 3
+LS SR4 (2) latency: 3
+LS SR7 (3) latency: 3
+LS SR6 (4) latency: 3
+LS SR3 (6) latency: 3
+ADD SR1 SR1 SR3 latency: 3
+ADD SR2 SR2 SR3 latency: 3
+B (5) latency: 3
+ADD SR1 SR1 SR3 latency: 3
+ADD SR2 SR2 SR3 latency: 3
+B (5) latency: 3
+ADD SR1 SR1 SR3 latency: 3
+ADD SR2 SR2 SR3 latency: 3
+B (5) latency: 3
+ADD SR1 SR1 SR3 latency: 3
+ADD SR2 SR2 SR3 latency: 3
+B (12) latency: 3
+B (14) latency: 3
+SRA SR3 SR3 SR6 latency: 3
+MTCL SR3 [32] latency: 4
+ADD SR5 SR4 SR3 latency: 3
+B (12) latency: 3
+B (14) latency: 3
+SRA SR3 SR3 SR6 latency: 3
+MTCL SR3 [16] latency: 4
+ADD SR5 SR4 SR3 latency: 3
+B (12) latency: 3
+B (14) latency: 3
+SRA SR3 SR3 SR6 latency: 3
+MTCL SR3 [8] latency: 4
+ADD SR5 SR4 SR3 latency: 3
+B (12) latency: 3
+B (14) latency: 3
+SRA SR3 SR3 SR6 latency: 3
+MTCL SR3 [4] latency: 4
+ADD SR5 SR4 SR3 latency: 3
+B (12) latency: 3
+B (14) latency: 3
+SRA SR3 SR3 SR6 latency: 3
+MTCL SR3 [2] latency: 4
+ADD SR5 SR4 SR3 latency: 3
+B (12) latency: 3
+B (14) latency: 3
+SRA SR3 SR3 SR6 latency: 3
+MTCL SR3 [1] latency: 4
+ADD SR5 SR4 SR3 latency: 3
+B (12) latency: 3
+B (20) latency: 3
+ADD SR4 SR4 SR6 latency: 3
+LS SR1 (0) latency: 3
+LS SR5 (5) latency: 3
+LS SR3 (6) latency: 3
+MTCL SR3 [64] latency: 4
+B (5) latency: 3
+ADD SR1 SR1 SR3 latency: 3
+ADD SR2 SR2 SR3 latency: 3
+B (5) latency: 3
+ADD SR1 SR1 SR3 latency: 3
+ADD SR2 SR2 SR3 latency: 3
+B (5) latency: 3
+ADD SR1 SR1 SR3 latency: 3
+ADD SR2 SR2 SR3 latency: 3
+B (5) latency: 3
