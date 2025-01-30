@@ -1,4 +1,4 @@
-# ECE-GY-9413 Course Project: Parallelized and Customized Computing Architecture
+# Functional & Timing Simulator
 ## Author: Anuj Attri [aa11527]
 A simulator designed for performance testing and analysis of VMIPS-like Architecture. 
 Conducted timing analysis on memory access latencies, reducing instruction fetch delays by 20% and implemented vectorized processing, optimizing multi-core execution for memory-intensive applications.
