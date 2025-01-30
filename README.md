@@ -65,10 +65,10 @@ The simulator evaluates various microarchitecture configurations using dot produ
 - Effect of memory bank conflicts
   
 ### 🔥 Optimizations Implemented
-✔️ Lazy Memory Initialization - Reduces startup time & memory usage.
-✔️ Regex-Based Instruction Parsing - Speeds up instruction decoding.
-✔️ Busy Board for Resource Tracking - Resolves RAW & WAW hazards.
-✔️ Separate Instruction Queues - Enhances parallelism in execution.
+✔️ Lazy Memory Initialization - Reduces startup time & memory usage.\
+✔️ Regex-Based Instruction Parsing - Speeds up instruction decoding.\
+✔️ Busy Board for Resource Tracking - Resolves RAW & WAW hazards.\
+✔️ Separate Instruction Queues - Enhances parallelism in execution.\
 ✔️ Memory Bank Conflict Resolution - Optimizes vector memory accesses.
 
 ## 📜 License
