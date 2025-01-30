@@ -1,5 +1,5 @@
 # Functional & Timing Simulator
-## Author: Anuj Attri [aa11527]
+## Author: Anuj Attri
 A simulator designed for performance testing and analysis of VMIPS-like Architecture. 
 Conducted timing analysis on memory access latencies, reducing instruction fetch delays by 20% and implemented vectorized processing, optimizing multi-core execution for memory-intensive applications.
 This VMIPS HPC core can process 11,000+ mixed precision data-points to perform efficient computation on big and complex data.
