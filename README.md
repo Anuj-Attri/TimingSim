@@ -1,4 +1,4 @@
-# 🚀 Timing Simulator for VMIPS Architecture
+# 🚀 Timing Simulator for Vector-MIPS5 Architecture
 ## Author: Anuj Attri
 **TimingSim** is a Python-based timing simulator designed to analyze the execution efficiency of a VMIPS-like vector microarchitecture. The simulator models instruction processing times without actual data movements, enabling performance analysis of various assembly programs.
 
