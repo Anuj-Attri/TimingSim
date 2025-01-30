@@ -15,7 +15,7 @@
 ---
 
 ## 📂 Project Structure
-
+```
 TimingSim/  
 ├── control_operations/            # Vector control instructions  
 ├── conv/                          # Convolution operations  
@@ -32,7 +32,7 @@ TimingSim/
 ├── func_sim_description.pdf        # Functional simulator description  
 ├── generate_vlr.py                 # Script to generate vector length register  
 └── vlr.txt                         # Vector length register file  
-
+```
 
 ---
 ## ⚙️ Installation & Usage
